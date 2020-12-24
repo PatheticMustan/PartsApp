@@ -1,17 +1,17 @@
-import * as WebBrowser from 'expo-web-browser';
-import React from 'react';
+import * as WebBrowser from "expo-web-browser";
+import React from "react";
 import {
 	ScrollView,
 	StyleSheet,
 	Text,
 	View,
 	StatusBar
-} from 'react-native';
+} from "react-native";
 
 
-import ListItem from '../components/ListItem.js';
+import ListItem from "../components/ListItem.js";
 
-import data from '../data.js';
+import data from "../data.js";
 
 export default class PartsListScreen extends React.Component {
 	render() {
@@ -36,7 +36,7 @@ PartsListScreen.navigationOptions = {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#fff',
+		backgroundColor: "#fff",
 	},
 	contentContainer: {
 		paddingTop: 30,
@@ -44,10 +44,10 @@ const styles = StyleSheet.create({
 	titleTextContainer: {
 		paddingLeft: 20,
 		paddingBottom: 10,
-		flexDirection: 'row',
+		flexDirection: "row",
 	},
 	title: {
-		fontWeight: 'bold',
+		fontWeight: "bold",
 		fontSize: 30,
 	}
 });

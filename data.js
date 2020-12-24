@@ -427,6 +427,6 @@ const data = {
 			imageCount: 2
 		}
 	]
-}
+};
 
 export default data;

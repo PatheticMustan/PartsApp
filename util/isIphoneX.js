@@ -1,15 +1,15 @@
-import { Dimensions, Platform } from 'react-native';
+import { Dimensions, Platform } from "react-native";
 
 export function isIphoneX() {
-  const dim = Dimensions.get('window');
+	const dim = Dimensions.get("window");
   
-  return Platform.OS === 'ios' && (isIPhoneXSize(dim) || isIPhoneXrSize(dim));
+	return Platform.OS === "ios" && (isIPhoneXSize(dim) || isIPhoneXrSize(dim));
 }
 
 export function isIPhoneXSize(dim) {
-  return dim.height == 812 || dim.width == 812;
+	return dim.height == 812 || dim.width == 812;
 }
 
 export function isIPhoneXrSize(dim) {
-  return dim.height == 896 || dim.width == 896;
+	return dim.height == 896 || dim.width == 896;
 }
